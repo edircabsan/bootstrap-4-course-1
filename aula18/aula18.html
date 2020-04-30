@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <noscript>Oops, I need Javascript enabled on this Browser</noscript>
+    <title>Bootstrap 4</title>
+</head>
+
+<body>
+    <a href="#collapse1" class="btn btn-info" data-toggle="collapse">Link with href</a>
+    <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse1">Button with data
+        target</button>
+    <div class="collapse" id="collapse1">
+        <div class="card card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolore facilis sapiente velit quis et voluptate
+            id iste, maxime harum quibusdam, facere amet nemo cupiditate debitis impedit optio voluptatibus deleniti!
+        </div>
+    </div>
+
+    <a href="#collapse2" class="btn btn-info" data-toggle="collapse">Link with href</a>
+    <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse3">Button with data
+        target</button>
+    <button class="btn btn-info" type="button" data-toggle="collapse" data-target=".multi-collapse">Change
+        Status</button>
+
+    <div class="row">
+        <div class="col">
+            <div class="collapse multi-collapse" id="collapse2">
+                <div class="card card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolore facilis sapiente velit quis et
+                    voluptate
+                    id iste, maxime harum quibusdam, facere amet nemo cupiditate debitis impedit optio voluptatibus
+                    deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet perferendis quo nesciunt,
+                    vitae corrupti a quaerat, recusandae harum molestiae eos error sequi, sunt libero fugiat? Unde quam
+                    iusto dignissimos eaque!
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="collapse3">
+                <div class="card card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolore facilis sapiente velit quis et
+                    voluptate
+                    id iste, maxime harum quibusdam, facere amet nemo cupiditate debitis impedit optio voluptatibus
+                    deleniti!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordion1">
+        <div class="card">
+            <div class="card-header">
+                <h5>
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#gc1">Collapsable
+                        Group &sharp;1</button>
+                </h5>
+            </div>
+            <div class="collapse show" id="gc1" data-parent="#accordion1">
+                <div class="card-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut tempora qui deleniti atque soluta.
+                    Molestiae laboriosam, corporis illo esse recusandae eos dicta libero. Nemo exercitationem saepe,
+                    quasi ducimus odit architecto!
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h5>
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#gc2">Collapsable
+                        Group &sharp;2</button>
+                </h5>
+            </div>
+            <div class="collapse" id="gc2" data-parent="#accordion1">
+                <div class="card-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut tempora qui deleniti atque soluta.
+                    Molestiae laboriosam, corporis illo esse recusandae eos dicta libero. Nemo exercitationem saepe,
+                    quasi ducimus odit architecto!
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h5>
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#gc3">Collapsable
+                        Group &sharp;3</button>
+                </h5>
+            </div>
+            <div class="collapse" id="gc3" data-parent="#accordion1">
+                <div class="card-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut tempora qui deleniti atque soluta.
+                    Molestiae laboriosam, corporis illo esse recusandae eos dicta libero. Nemo exercitationem saepe,
+                    quasi ducimus odit architecto!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
